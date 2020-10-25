@@ -1,0 +1,469 @@
+{
+// This is the config for linux.
+// ------------------------------------------------------- 
+// Todo 
+
+// ------------------------------------------------------- 
+
+
+// -------------------------------------------------------
+// Sync.
+// -------------------------------------------------------
+  "sync.gist": "8fcd9e25b50757b12cfbd48a7504cc89",
+// -------------------------------------------------------
+// Files.
+// -------------------------------------------------------
+  "files.autoSave": "onFocusChange",
+  "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/**": true,
+  },
+// -------------------------------------------------------
+// vsnotes.
+// -------------------------------------------------------
+  "vsnotes.defaultNotePath": "~/.vscode_notes",
+  "vsnotes.defaultNoteName": "Note_Name_Me",
+  "vsnotes.noteTitleConvertSpaces": "_",
+
+// -------------------------------------------------------
+// terminal.
+// -------------------------------------------------------
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.commandsToSkipShell": [ ],
+  "terminal.external.osxExec": "iterm.app",
+  "terminal.integrated.inheritEnv": true,
+   // -------------------------------------------------------
+// explorer.
+// -------------------------------------------------------
+  "explorer.confirmDelete": false,
+  "explorer.openEditors.visible": 1,
+// -------------------------------------------------------
+// window.
+// -------------------------------------------------------
+  "window.zoomLevel": 0,
+  "window.titleBarStyle": "custom",
+  "window.newWindowDimensions": "inherit",
+
+// -------------------------------------------------------
+// workbench.
+// -------------------------------------------------------
+  "workbench.settings.useSplitJSON": true,
+  "workbench.settings.editor": "json",
+  //
+  "workbench.tree.indent": 14,
+  "workbench.tree.renderIndentGuides": "always",
+
+  "workbench.colorTheme": "Solarized Dark+",
+  //
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.labelFormat": "default",
+  "workbench.editor.highlightModifiedTabs": false,
+  "workbench.editor.showTabs": true,
+  "workbench.editor.enablePreview": false,
+  //
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "left",
+  //
+  "workbench.startupEditor": "newUntitledFile",
+  //
+  "workbench.colorCustomizations": {
+    // "editorCursor.foreground": "#ff8000",
+    "editorCursor.foreground": "#b36800",
+    "editor.lineHighlightBackground": "#003e47",
+   
+    "editor.selectionBackground": "#135564",
+    "editor.selectionHighlightBackground": "#135564",
+
+    "button.background": "#1f292d",
+    "list.activeSelectionBackground": "#1f292d",
+
+    "sideBar.border": "#9bb59b",
+
+    "panel.border": "#9bb59b",
+    "editorGroup.border": "#9bb59b",
+
+    "editorGroupHeader.tabsBackground": "#303c41",
+    "editorGroupHeader.tabsBorder": "#003E47",
+
+    "tab.activeBackground": "#7e9f7e",
+    "tab.activeForeground": "#000000",
+    "tab.inactiveBackground": "#3e3f3e",
+    "tab.inactiveForeground": "#c0c0c0",
+
+    "editorIndentGuide.background": "#263238",
+    "editorIndentGuide.activeBackground": "#263238",
+
+    "statusBar.background": "#263238",
+    "statusBar.foreground": "#389e49",
+    "statusBar.debuggingBackground": "#005f5f",
+
+    "tree.indentGuidesStroke": "#008070",
+  },
+
+// -------------------------------------------------------
+// editor.
+// -------------------------------------------------------
+  "editor.suggestSelection": "first",
+  "editor.parameterHints.cycle": true,
+  "editor.lineNumbers": "relative",
+  "editor.folding": true,
+  "editor.glyphMargin": false,
+  //
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "editor.wordBasedSuggestions": true,
+  "editor.parameterHints.enabled": true,
+  "editor.quickSuggestionsDelay": 200,
+
+  "editor.selectionHighlight": false,
+  
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false,
+  },
+
+  "editor.fontLigatures": false,
+  "editor.fontSize": 17.5,
+  "editor.fontWeight": "normal",
+  "editor.fontFamily": "Source Code Pro",
+
+  "editor.cursorBlinking": "solid",
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "line",
+// -------------------------------------------------------
+// Git 
+// -------------------------------------------------------
+   "git.ignoreLegacyWarning": true,
+   "git.suggestSmartCommit": false,
+   "git.autofetch": true,
+   "gitlens.views.repositories.location": "scm",
+   "gitlens.views.fileHistory.location": "scm",
+   "gitlens.views.lineHistory.location": "scm",
+   "gitlens.views.compare.location": "scm",
+   "gitlens.views.search.location": "scm",
+
+// -------------------------------------------------------
+// filetypes
+// -------------------------------------------------------
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    }
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+
+//------------------------------------------------
+// brackets-pair
+//------------------------------------------------
+  "bracket-pair-colorizer-2.showBracketsInGutter": false,
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.colors": [
+    "LightSkyBlue",
+    "Orange",
+    "Yellow"
+  ],
+  // indent guides false so as to not collide with brackets-pair
+  "editor.renderIndentGuides": false,
+  "editor.highlightActiveIndentGuide": false,
+  "bracket-pair-colorizer-2.showVerticalScopeLine": true,
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": true,
+  "bracket-pair-colorizer-2.scopeLineRelativePosition": false,
+  "editor.matchBrackets": "always",
+  "bracket-pair-colorizer-2.scopeLineCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1.3px",
+    "borderColor : {color}",
+    "opacity: 0.2"
+  ],
+//------------------------------------------------
+// VIM
+//------------------------------------------------
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "rgba(0, 123, 170, 0.5)",
+  "vim.highlightedyank.duration": 250,
+  "vim.searchHighlightColor": "rgba(0, 123, 172, 0.6)",
+  //
+  "vim.useSystemClipboard": true,
+  "vim.replaceWithRegister": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.statusBarColorControl": false,
+
+  "vim.smartcase": false,
+  "vim.ignorecase": true,
+  "vim.sneakUseIgnorecaseAndSmartcase": true,
+
+  "vim.timeout": 1020,
+  "vim.sneak": true,
+  "vim.foldfix": true,
+  "vim.visualstar": true,
+  //
+  "vim.easymotion": true,
+  "vim.easymotionMarkerHeight": 20,
+  "vim.easymotionKeys": "asdfghjkl;",
+  //
+  "vim.enableNeovim": false,
+  "vim.leader": "<Space>",
+  "vim.handleKeys": {
+     // "<C-a>": false,
+      "<C-g>": false,
+      "<C-t>": false,
+      "<C-w>": false,
+  },
+  // -----------------------------------
+  "vim.insertModeKeyBindings": [
+     {
+       "before": ["f", "d"],
+       "after": ["<Esc>"]
+     },
+     {
+       "before": ["<c-l>"],
+       "commands": ["cursorRight"]
+     },
+     {
+       "before": ["<c-h>"],
+       "commands": ["cursorLeft"]
+     },
+  ],
+  // - ----------------------------------
+  "vim.normalModeKeyBindingsNonRecursive": [
+  // -- Leader 
+    {
+      // # then si to insert n spaces.  Default 1
+      "before": ["<Leader>", "i"],
+      "after": ["i","<Space>", "<Esc>"]
+    },
+    {
+      "before":   ["<leader>", "w"],
+      "commands": [ "workbench.action.files.save", ":nohl" ]
+    },
+    {
+      "before":   ["<leader>", "W"],
+      "commands": [ "workbench.action.files.save", ":nohl", "workbench.action.closeActiveEditor"]
+    },
+    {
+    // easymotion search 
+      "before":   ["<Leader>s"],
+      "after": ["<leader>", "<leader>", "/"]
+    },
+    {
+      "before":   ["<leader>", "x"],
+      "commands": [":reg"]
+    },
+    {
+    // add space to number column for debug flags/Breakpoint
+      "before": ["<leader>", "<C-d>"],
+      "commands": ["settings.cycle.my_toggle_debug"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["settings.cycle.my_toggle_line_numbers"]
+    },
+    {
+      "before": ["<leader>", "r"],
+      "commands": ["workbench.output.action.clearOutput",
+                   "workbench.action.files.save",
+                   "code-runner.run"],
+    },
+    {
+      "before": ["<leader>", "R"],
+      "commands": [ "code-runner.stop"],
+    },
+  // -- Edit / Move
+    {
+      // "before": ["<C-n>"],
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before":   [ "g", "o" ],
+      "commands": ["editor.action.insertLineAfter"]
+    },
+    {
+      "before":   [ "g", "O" ],
+      "commands": ["editor.action.insertLineBefore"]
+    },
+    {
+    // keep cursor position after join
+      "before": ["J"],
+      "after": ["m", "z","J","`","z"]
+    },
+    {
+      // keep cursor line relitive location
+      "before": ["<C-e>"],
+      "after": ["<C-e>", "j"]
+     },
+    {
+      // keep cursor line relitive location
+      "before": ["<C-y>"],
+      "after": ["<C-y>", "k"]
+    },
+    {
+      //" When jump to next search/match also center screen
+      "before": ["n"],
+      "after": ["n", "z", "z"]
+    },
+    {
+      //" When jump to next search/match also center screen
+      "before": ["N"],
+      "after": ["n", "z", "z"]
+    },
+    {
+      "before": ["H"],
+      "after": ["^"]
+    },
+    {
+      "before": ["L"],
+      "after": ["$"]
+    },
+    {
+      "before": ["j"],
+      "after": ["g", "j"]
+    },
+    {
+      "before": ["k"],
+      "after": ["g", "k"]
+    },
+    {
+      "before": [ "p" ],
+      "after": [ "p", "`", ";[" ]
+    },
+    {
+      "before": [ "Y" ],
+      "after": [ "y", "$" ]
+    },
+    {
+      "before":   [ "g", "C" ],
+      "commands": [
+          "editor.action.copyLinesDownAction",
+          "cursorUp",
+          "editor.action.addCommentLine",
+          "cursorDown"
+      ]
+    },
+  ],
+// --- [ End VIm ] -------------------------------
+//
+// ---------------------------------------------
+// multicommand
+// ---------------------------------------------
+  "multiCommand.commands": [
+   {
+     "command": "multiCommand.togPanelPos",
+     "sequence": [
+       "workbench.action.togglePanelPosition",
+       "workbench.action.focusPanel",
+     ]
+   },
+   {
+     "command": "multiCommand.swapChar",
+     "interval": 30,
+     "sequence": [
+       "cursorLeftSelect",
+       "editor.action.clipboardCutAction",
+       "cursorRight",
+       "editor.action.clipboardPasteAction"
+     ]
+   }
+  ],
+// ---------------------------------------------
+// setting.cycler
+// ---------------------------------------------
+  "settings.cycle": [
+      {
+          "id": "my_toggle_line_numbers", // must be unique
+          "overrideWorkspaceSettings": false,
+          "values": [
+              {
+                  "editor.lineNumbers": "off",
+                  "editor.glyphMargin": false,
+                  "editor.folding": true
+              },
+              {
+                  "editor.lineNumbers": "relative",
+                  "editor.glyphMargin": false,
+                  "editor.folding": true
+              }
+           ],
+      },
+      {
+          "id": "my_toggle_debug", // must be unique
+          "overrideWorkspaceSettings": false,
+          "values": [
+              {
+                  "editor.lineNumbers": "relative",
+                  "editor.folding": true,
+                  "editor.glyphMargin": true,
+              },
+              {
+                  "editor.lineNumbers": "relative",
+                  "editor.folding": true,
+                  "editor.glyphMargin": false,
+              }
+          ],
+      },
+    ],
+// ---------------------------------------------
+// Latex
+// ---------------------------------------------
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.recipes": [
+      {
+        "name": "xelatex",
+        "tools": [
+          "xelatex"
+        ]
+      },
+    ],
+   "latex-workshop.latex.tools": [
+    {
+      "name": "xelatex",
+      "command": "xelatex",
+      "args": [
+        "-xelatex",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ],
+      "env": {}
+    }
+  ],
+  "cSpell.userWords": [
+    "Easymotion",
+    "entrapureship"
+  ],
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true,
+  "tabnine.experimentalAutoImports": true,
+  "go.languageServerExperimentalFeatures": {
+    "diagnostics": true,
+    "documentLink": true
+  },
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "extensions.ignoreRecommendations": true,
+//
+
+
+//------------------------------------------------
+
+}
